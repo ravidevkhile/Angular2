@@ -13,9 +13,6 @@
   },
   "private": true,
   "dependencies": {
-    "ag-grid": "9.1.x",
-    "ag-grid-enterprise": "9.1.x",
-    "ag-grid-angular": "9.1.x",
     "@angular/common": "2.4.x",
     "@angular/compiler": "2.4.x",
     "@angular/core": "2.4.x",
@@ -24,11 +21,16 @@
     "@angular/platform-browser": "2.4.x",
     "@angular/platform-browser-dynamic": "2.4.x",
     "@angular/router": "3.4.x",
-    "core-js": "2.4.x",
-    "rxjs": "5.1.x",
-    "zone.js": "0.7.x",
+    "@types/node": "^6.0.73",
+    "ag-grid": "9.1.x",
+    "ag-grid-angular": "9.1.x",
+    "ag-grid-enterprise": "9.1.x",
     "bootstrap": "3.3.6",
-    "jquery": "3.1.1"
+    "core-js": "2.4.x",
+    "jquery": "3.1.1",
+    "ng-bootstrap": "^1.6.3",
+    "rxjs": "5.1.x",
+    "zone.js": "0.7.x"
   },
   "devDependencies": {
     "@angular/cli": "1.0.0-rc.0",

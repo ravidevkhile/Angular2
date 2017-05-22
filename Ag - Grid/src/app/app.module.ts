@@ -5,6 +5,11 @@ import {FormsModule} from "@angular/forms";
 import {AgGridModule} from "ag-grid-angular/main";
 // application
 import {AppComponent} from "./app.component";
+import {SquareComponent} from "./dynamic-component-example/square.component";
+import {ParamsComponent} from "./dynamic-component-example/params.component";
+import {CubeComponent} from "./dynamic-component-example/cube.component";
+import {CurrencyComponent} from "./dynamic-component-example/currency.component";
+import {ChildMessageComponent} from "./dynamic-component-example/child-message.component";
 // rich grid
 import {RichGridComponent} from "./rich-grid-example/rich-grid.component";
 import {DateComponent} from "./date-component/date.component";
@@ -20,7 +25,11 @@ import {GroupRowComponent} from "./grouped-row-example/group-row-renderer.compon
             [
                 DateComponent,
                 HeaderComponent,
-                HeaderGroupComponent
+                HeaderGroupComponent,SquareComponent,
+                CubeComponent,
+                ParamsComponent,
+                CurrencyComponent,
+                ChildMessageComponent
             ]
         )
     ],
@@ -29,7 +38,12 @@ import {GroupRowComponent} from "./grouped-row-example/group-row-renderer.compon
         RichGridComponent,
         DateComponent,
         HeaderComponent,
-        HeaderGroupComponent,GroupRowComponent
+        HeaderGroupComponent,GroupRowComponent,
+        SquareComponent,
+        CubeComponent,
+        ParamsComponent,
+        CurrencyComponent,
+        ChildMessageComponent
     ],
     bootstrap: [AppComponent]
 })
