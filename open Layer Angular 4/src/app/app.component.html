@@ -1,0 +1,10 @@
+<h1>
+  {{title}}
+</h1>
+<div id="map" class="map"></div>
+<div> <label>Measurement type &nbsp;</label>
+      <select id="type"  [(ngModel)]="typeSelect">
+        <option value="length">Length (LineString)</option>
+        <option value="area">Area (Polygon)</option>
+      </select>
+</div>
